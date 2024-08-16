@@ -1,0 +1,74 @@
+.contact-us-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.contact-us-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-us-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.contact-us-form-container {
+  width: 60%;
+  margin-right: 20px; 
+}
+
+.contact-us-info {
+  width: 35%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contact-us-info p {
+  margin: 10px 0;
+}
+
+.success-message {
+  color: green;
+}
+
+.error-message {
+  color: red;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.custom-textfield {
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 1200px;
+  height: 450px;
+  margin-top: 20px;
+}
+
+.location-image-container {
+  margin: 20px 0;
+}
+
+.location-image {
+  width: 100%;
+  height: auto;
+}

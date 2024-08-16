@@ -1,0 +1,40 @@
+.rewards-page {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+  }
+  
+  .rewards-header {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Brush Script MT', cursive;
+    color: #333;
+  }
+  
+  .reward-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .reward-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .reward-points {
+    margin-top: 10px;
+    font-weight: bold;
+    color: mediumvioletred;
+  }
+  
+  .reward-card button {
+    background-color: mediumvioletred;
+    color: white;
+  }
+  
+  .reward-card button:disabled {
+    background-color: grey;
+    color: white;
+  }
+  

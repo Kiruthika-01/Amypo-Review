@@ -1,0 +1,72 @@
+.gift-page {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.gift-page.with-background {
+  background-image: url('https://www.shutterstock.com/image-vector/vector-illustration-realistic-red-color-260nw-2460894815.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.gift-header {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.gift-subheader {
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.gift-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  cursor: pointer;
+  position: relative;
+}
+
+.gift-icon {
+  width: 300px;
+  height: 300px;
+  transition: transform 0.3s ease;
+}
+
+.gift-icon:hover {
+  transform: scale(1.1);
+}
+
+.gift-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.gift-gallery.show {
+  opacity: 1;
+}
+
+.gift-item {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gift-image {
+  width: 50%;
+ 
+  margin-top: 100px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  margin-left: 80px;
+}
+
+.gift-image:hover {
+  transform: scale(1.05);
+}

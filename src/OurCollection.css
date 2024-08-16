@@ -1,0 +1,87 @@
+.collection-page {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background for the entire collection page */
+}
+
+.collection-page h2 {
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dress-images .slick-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.dress-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  width: 250px; /* Set a fixed width to maintain consistent size */
+}
+
+.dress-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03); /* Slightly increase size on hover */
+}
+
+.dress-image {
+  width: 100%; /* Make the image take the full width of the card */
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 15px; /* Space between image and price */
+}
+
+.dress-price {
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  color: #333;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.collectionbuy-now-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: auto; 
+}
+
+.collectionbuy-now-button:hover {
+  background-color: #0056b3;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: white;
+}
+
+.slick-prev, .slick-next {
+  width: 60px;
+  height: 60px;
+  background: black;
+  border-radius: 50%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: -75px;
+}
+
+.slick-next {
+  right: -75px;
+}

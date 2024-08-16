@@ -1,0 +1,109 @@
+.success-page {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+.confetti {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.confetti::before,
+.confetti::after,
+.confetti .piece1,
+.confetti .piece2,
+.confetti .piece3,
+.confetti .piece4,
+.confetti .piece5 {
+    content: '';
+    position: absolute;
+    top: -100%;
+    width: 10px;
+    height: 10px;
+    animation: confetti 5s linear infinite;
+}
+
+.confetti::before {
+    background-color: #FF0000; /* Bright Red */
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.confetti::after {
+    background-color: #0000FF; /* Bright Blue */
+    left: 20%;
+    animation-delay: 1s;
+}
+
+.confetti .piece1 {
+    background-color: #00FF00; /* Bright Green */
+    left: 30%;
+    animation-delay: 0.5s;
+}
+
+.confetti .piece2 {
+    background-color: #FFFF00; /* Bright Yellow */
+    left: 40%;
+    animation-delay: 0.5s;
+}
+
+.confetti .piece3 {
+    background-color: #FF00FF; /* Bright Magenta */
+    left: 50%;
+    animation-delay: 0.5s;
+}
+
+.confetti .piece4 {
+    background-color: #FFA500; /* Bright Orange */
+    left: 60%;
+    animation-delay: 0.5s;
+}
+
+.confetti .piece5 {
+    background-color: #00FFFF; /* Bright Cyan */
+    left: 70%;
+    animation-delay: 0.5s;
+}
+.confetti .piece6 {
+    background-color: gold; /* Bright Cyan */
+    left: 80%;
+    animation-delay: 0.5s;
+}
+.confetti .piece7 {
+    background-color:darkgreen; /* Bright Cyan */
+    left: 90%;
+    animation-delay: 0.5s;
+}
+.confetti .piece8 {
+    background-color:darkgreen; /* Bright Cyan */
+    left: 100%;
+    animation-delay: 0.5s;
+}
+.confetti .piece9 {
+    background-color:darkgreen; /* Bright Cyan */
+    left: 110%;
+    animation-delay: 0.5s;
+}
+.confetti .piece10 {
+    background-color:darkgreen; /* Bright Cyan */
+    left: 120%;
+    animation-delay: 0.5s;
+}
+
+@keyframes confetti {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) rotate(720deg);
+        opacity: 0;
+    }
+}

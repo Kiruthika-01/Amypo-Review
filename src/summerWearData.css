@@ -1,0 +1,78 @@
+.summerwear-details-page {
+    padding: 20px;
+  }
+  
+  .summerwear-details-content {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .summerwear-details-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .summerwear-details-info {
+    flex: 1;
+  }
+  
+  .summerwear-details-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .summerwear-details-sizes, .summerwear-details-colors, .accessories {
+    margin-bottom: 10px;
+  }
+  
+  .size-chart {
+    margin-top: 5px;
+  }
+  
+  .color-swatch-container {
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+  }
+  
+  .color-swatch {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: 3px;
+    border: 1px solid #000;
+  }
+  
+  .accessory-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .accessory-image {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-to-cart-button, .buy-now-button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .summerbuy-now-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

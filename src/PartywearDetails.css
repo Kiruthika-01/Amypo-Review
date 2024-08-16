@@ -1,0 +1,194 @@
+.partywear-details-page {
+  padding: 20px;
+  background-color:white
+}
+
+.partywear-details-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.partywear-details-image {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+  
+  
+}
+
+.partywear-details-info {
+  flex: 1;
+}
+
+.partywear-details-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.partywear-details-sizes select,
+.partywear-details-colors select,
+.accessories {
+  margin-bottom: 10px;
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.size-chart {
+  margin-top: 5px;
+}
+
+.color-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; 
+}
+
+.color-swatch {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px; 
+  border: 1px solid #ccc;
+}
+
+
+.accessory-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accessory-image {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.accessory-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.partyadd-to-cart-button {
+ 
+    background-color:mediumvioletred;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.quantity-selector label {
+  margin-right: 10px;
+}
+
+.quantity-selector button {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.quantity-selector input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.accessories {
+  margin-top: 20px;
+}
+
+.accessory-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.accessory-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.rating-section {
+  margin-top: 20px;
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star.selected {
+  color: gold;
+}
+
+.submit-rating-button {
+  margin-top: 10px;
+}
+
+.popup-message {
+  margin-top: 10px;
+  color: green;
+}
+.partywear-description {
+  position: absolute; /* Absolute positioning */
+  top: 20px; /* Adjust the distance from the top */
+  left: 20px; 
+  max-width: 300px; 
+  font-size: 3em;
+  font-family: cursive;
+ 
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 30px; /* Optional: rounded corners */
+}
+.partybuy-now-button
+{
+  background-color: #007bff;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.partywear-details-stock {
+  position: absolute; /* Absolute positioning */
+  top: 20px; /* Adjust the distance from the top */
+  left: 20px; /* Adjust the distance from the left */
+  max-width: 300px; /* Optional: to control the width */
+  
+  font-family: cursive;
+  color: green;
+  font-size: 3em;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 450px; 
+  margin-bottom: 25px;
+}

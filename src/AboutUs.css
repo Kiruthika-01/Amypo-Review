@@ -1,0 +1,12 @@
+/* AboutUs.css */
+.about-us-container {
+    padding: 40px;
+    text-align: center;
+    font-family: 'monospace';
+  }
+  
+  .team-member {
+    padding: 20px;
+    text-align: center;
+  }
+  
